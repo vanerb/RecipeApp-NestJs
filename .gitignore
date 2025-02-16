@@ -1,0 +1,32 @@
+# Node modules y archivos de compilación
+backend/dist/
+backend/node_modules/
+backend/.cache/
+backend/.temp/
+
+# Variables de entorno
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+backend/.env.*.local
+
+# Logs y archivos de depuración
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+backend/*.log
+
+# Archivos de TypeScript generados
+backend/*.tsbuildinfo
+
+# Configuración de IDEs y editores de código
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+
+# Archivos temporales del sistema
+backend/.DS_Store
+backend/Thumbs.db
